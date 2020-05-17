@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="pl.javastart.mp3player.controller.MainController" stylesheets="@../css/style.css">
+   <top>
+      <fx:include fx:id="menuPane" source="menuPane.fxml"/>
+   </top>
+   <center>
+      <fx:include fx:id="contentPane" source="contentPane.fxml"/>
+   </center>
+   <bottom>
+      <fx:include fx:id="controlPane" source="controlPane.fxml"/>
+   </bottom>
+</BorderPane>
